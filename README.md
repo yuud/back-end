@@ -60,6 +60,7 @@ Fast, flexible and pragmatic, PHP powers everything from your blog to the most p
 
 #### 负面消息
 PHP 兼 Zend 联合创始人 Zeev Suraski 宣布从 Zend 离职。
+![image](https://github.com/yuud/back-end/blob/master/666666.jpg)
 
 Zeev Suraski 在推特上的自我介绍是 PHP 联席架构师（Co-Architect of PHP）、Zend 联合创始人（Co-founder of Zend）。事实上，Zeev Suraski 是一名以色列程序员，他和另一名以色列程序员 Andi Gutmans 以及其他程序员一起发展了由 Rasmus Lerdorf 创建的 PHP 语言。
 
