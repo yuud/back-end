@@ -97,14 +97,37 @@ Zeev Suraski 暂未透露离职的原因及后续的下一步计划。而对于 
 
 * 8、图像处理，用PHP动态创建图像,PHP图像处理默认使用GD2。且也可以配置为使用image magick进行图像处理
 
-## PHP开发的正确姿势
+## 轻松一刻
+某程序员对书法十分感兴趣，退休后决定在这方面有所建树。于是花重金购买了上等的文房四宝。一日，饭后突生雅兴，一番磨墨拟纸，并点上了上好的檀香，颇有王羲之风范，又具颜真卿气势，定神片刻，泼墨挥毫，郑重地写下一行字：hello world.
+
+## php语言特点
 ```
 <?php
+//变量:int/float/string/boolen/array/obj/null/resource(8种)，弱语言类型,$a = 12与 $a = '12'
 
-echo 'hello world!';
+//底层实现
+/**
+typedef union _zend_value{
+	long aval;
+	double val;
+	struct {
+		char *val;
+		int len;
+	} str;
+	hashTable *ht;
+	zend_object_value object;
+}zend_value
+*/
 
+//字符串函数strlen|strrev|str|strpos
+//数组函数array_pop|array_push|array_merage|array_map
+//web应用核心技术 框架技术(php)+第三方库+队列(kafka|rabbitmq|activemq)+mysql+redis+elasticsearch+(大数据+Ai:TensorFlow)
+
+echo "hello world!";
 ?>
 ```
+
+
 
 ## 软件开发主要分为以下几个阶段
 * 1、问题定义
@@ -141,7 +164,7 @@ echo 'hello world!';
   * 基于公司原有技术平台的衍生产品开发（人人店小程序/erp api接口/soap应用）
   * 基于具体业务的开源技术开发（资管系统: node做抓取，solr/elasticsearch做搜索引擎，php写业务接口）
 * 写程序的实质（数据结构+算法）
-* 专业知识对开发工作的影响（软件工程:软件生命周期/程序流程图/UML建模，数据结构|操作系统|计算机网络|高等数学|计算机英语）
+* 专业知识对开发工作的影响（软件工程:开发模型[瀑布模型,快速原型模型,增量模型,螺旋模型]/软件生命周期/程序流程图/UML统一建模语言，数据结构|操作系统|计算机网络|高等数学|计算机英语）
 * 未来的技术规划与展望
   * 大数据|Ai|5G
     * Hadoop, Hibase, TensorFlow,  
@@ -150,10 +173,13 @@ echo 'hello world!';
 小结：进步最快的方式：师徒制做项目，从项目实践中学习，踩坑->挖坑->填坑熟能生巧
 
 ## 现阶段及未来社会对后端人才的综合素质要求
-* 多面多种技术混合型人才（php+go+python+nodejs+linux+tensorflow+运维+测试+安全+算法）
+* 多面多种技术混合型人才（java+php+go+python+nodejs+linux+tensorflow+运维+测试+安全+算法）
 * 快速学习及落地应用
 * 全面考虑及风控预案
 * 开发效率管理与合作
 * 技术沉淀/归纳/文档能力
 
-
+## 结束语
+* 码农的学习充电（极客，网易云课程，技术茶话会，技术分享会，同行切磋交流）
+* 码农的转型之路（技术leader/项目主管/Cto）
+* 码农的解压方法:蹦迪？跑步/爬山/钓鱼/看动漫...
