@@ -3,6 +3,19 @@
 
 
 ### 主流的后端技术
+* Java
+* Python
+* Php
+* C#
+* C++
+* C
+* Javascript
+* Golang
+* Perl
+* Visual Basic
+* Object Pascal
+TIOBE 8月编程语言排行1-20
+
 
 
 
