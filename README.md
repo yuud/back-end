@@ -18,6 +18,7 @@
 ![image](https://github.com/yuud/back-end/blob/master/1565506765653.jpg)
 
 ## PHP概念
+PHP原始为Personal Home Page的缩写，已经正式更名为 "PHP: Hypertext Preprocessor"。
 
 ### PHP官方解释
 PHP is a popular general-purpose scripting language that is especially suited to web development.
